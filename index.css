@@ -1,0 +1,245 @@
+body{
+    font-family:'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+nav {
+    height: 80px;
+    position: fixed;    
+    width: 100%;
+    color: ivory;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #282B37; 
+    background-color: black;
+    font-size: 22px;
+}
+
+nav a{
+    margin: 15px;
+}
+nav a:hover{
+    text-transform: uppercase;
+}
+
+h1{
+    font-family:'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: tomato;
+    margin-left: 20px;
+}
+
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+   
+}
+
+header{
+    background-image: url("https://i.pinimg.com/564x/83/05/29/830529d1541deccd7b9ecd5d5094de41.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    border: 2px solid black;
+}
+
+header h2{
+    max-width: 800px;
+    margin: 50px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.085em;
+ 
+
+}
+
+button{
+    border-radius: 20%;
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+section.upcoming-races,
+section.contacts {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+    
+    
+}
+.races {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+
+.race {    
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section.upcoming-races h2{
+    font-size: 50px;
+}
+#budapest {
+    background-image: url("https://harddograce.eu/wp-content/uploads/2022/06/242701948-4353298618099827-4589868358107650604-n.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 2;
+    border: 1px solid black;
+}
+
+#prague {
+    background-image: url("https://harddograce.eu/wp-content/uploads/2021/06/hdr-galeria2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 4;
+    border: 1px solid black;
+}
+
+#munich {
+    background-image: url("https://harddograce.eu/wp-content/uploads/2021/06/base-800x800.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 4;
+}
+
+#paris {
+    background-image: url("https://harddograce.eu/wp-content/uploads/2023/01/admin-ajax.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 2;
+}
+
+
+section.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    background-color: black;
+    color: tomato;
+    text-align: center;
+    font-size: 1rem;
+   
+}
+nav,
+header {
+    background-color: black;
+}
+
+
+
+
+
+.description {
+    
+        background-color: rgba(0, 0, 0, 0.85);
+        color: white;
+        width: 100%;
+        margin: 0;
+        padding: 30px 30px;
+        max-height: 50px;
+    
+}
+
+
+.team h2 {
+    font-size: 50px;
+    margin-left: 160px;
+}
+
+.teammates {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   
+    
+}
+
+.teammate {
+    width: 210px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black;
+   
+   
+}
+
+#maggie {
+    background-image: url("maggie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#mrpeanut {
+    background-image: url("mrpeanut.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#felicia {
+    background-image: url("felicia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#luca {
+    background-image: url("luca.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#ebior {
+    background-image: url("ebior.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
+#bandi {
+    background-image: url("bandi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+}
